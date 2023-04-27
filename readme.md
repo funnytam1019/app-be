@@ -39,10 +39,7 @@ The project code base is mainly located within the `src` folder. This folder is 
 
 - `index.ts`: bootstrapping the whole application in typescript. The file will be built into Javascript in the `dist` folder .
 
-#### Back-end:
-
-
-.
+```
 ├── dist
 │   ├── index.js
 ├── src
@@ -50,27 +47,10 @@ The project code base is mainly located within the `src` folder. This folder is 
 ├── package.json
 ├── tsconfig.json               # Typescript compiler configuration
 ├── tsconfig.paths.json         # Typescript paths
-
-
-#### Front-end:
-
-
-.
-├── dist
-├── src
-├── assets
-├── context
-├── pages
-├── App.tsx
-├── index.tsx
-
+```
 
 ### 3rd party libraries
 
 - Socket.IO - using socket.io for communication between client and the dashboard as the backend act as a middleman
 - vite - using to build React application
 - express - using to build the backend
-
-### Environment Variables
-
-- PORT (Backend)
